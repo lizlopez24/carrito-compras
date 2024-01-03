@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
         fontSize: 30,
         paddingVertical: 40,
         fontWeight: 'bold',
-        color: '#101f66'
+        color: 'coral'
     },
     img:{
         width:60,

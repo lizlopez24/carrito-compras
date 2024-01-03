@@ -13,17 +13,17 @@ function MyTabs() {
     <Tab.Navigator>
       <Tab.Screen name="Registro" component={RegistroProductosScreen} options={{
         tabBarIcon:()=>(
-            <MaterialIcons name="store" size={24} color={"black"}/>
+            <MaterialIcons name="store" size={24} color={"coral"}/>
         )
       }}/>
       <Tab.Screen name="Lista" component={ListaProductosScreen} options={{
         tabBarIcon:()=>(
-            <MaterialIcons name="list" size={24} color={"black"}/>
+            <MaterialIcons name="list" size={24} color={"coral"}/>
         )
     }}/>
       <Tab.Screen name="Integrantes" component={IntegrantesScreen} options={{
         tabBarIcon:()=>(
-            <MaterialIcons name="people-outline" size={24} color={"black"}/>
+            <MaterialIcons name="people-outline" size={24} color={"coral"}/>
         )
     }}/>
     </Tab.Navigator>
